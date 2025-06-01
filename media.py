@@ -7,3 +7,4 @@ n4 = int(input('Digite a quarta nota: '))
 m = (n1 + n2 + n3 + n4) / 4
 print(f'O aluno {nome} obteve uma média de {m} pontos, na disciplina de {disciplina}')
 print(f'A menor nota foi {min(n1, n2, n3, n4)}')
+print(f'A maior nota foi {max(n1, n2, n3, n4)}')
