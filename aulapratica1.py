@@ -54,5 +54,5 @@ resp = 7 * (s1 + s2 + ' ')
 print(resp)
 
 #letra e
-resp = 5 * (2 *s2 + s3 + ' ')
+resp = 5 * (2 * s2 + s3 + ' ')
 print(resp)
