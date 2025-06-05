@@ -2,6 +2,7 @@ print(10 * '-', 'ESCOLHA O QUE DESEJA COMPRAR', 10 * '-', '\n1 - Maça\n', '2 - 
 
 escolha = int(input('Qual sua escolha: '))
 kilo = float(input('Insira o peso: '))
+
 print(50 * '-')
 if escolha == 1:
     print(f'Você comprou {kilo} kg de Maça. O preço total é de R$ {kilo * 2.30}')
