@@ -1,11 +1,11 @@
 soma = 0
 cont = 1
-while (cont <= 4):
-    x = float(input(f'Insira a {cont}º nota: '))
-    soma = soma + x
-    cont = cont + 1
-media = soma / 4
-if media >= 70:
-    print(f'Média final: {media:.2f}. Você está APROVADO!')
+while (cont <=4):
+    x = int(input(f'Insira a {cont}º nota: '))
+    soma += x
+    cont += 1
+    media = soma /4
+if (x >= 70):
+    print(f'Sua nota foi {media}. VOCÊ ESTÁ APROVADO')
 else:
-    print(f'Média final: {media:.2f}. Você está REPROVADO!')
+    print(f'Sua nota foi {media}. VOCÊ ESTÁ REPROVADO')
