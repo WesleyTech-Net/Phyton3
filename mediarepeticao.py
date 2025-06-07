@@ -5,7 +5,7 @@ while (cont <=4):
     soma += x
     cont += 1
     media = soma /4
-if (x >= 70):
+if (media >= 70):
     print(f'Sua nota foi {media:.2f}. VOCÊ ESTÁ APROVADO!')
 else:
     print(f'Sua nota foi {media:.2f}. VOCÊ ESTÁ REPROVADO!')
