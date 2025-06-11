@@ -5,4 +5,4 @@ for i in range(1, 101):
         soma += i
         qtd += 1
 media = soma / qtd
-print(f'A média dos pares de 0 a 100 é: {media}')
+print(f'A média dos pares de 1 a 100 é: {media}')
