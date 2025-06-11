@@ -1,3 +1,4 @@
+#2 while
 tabuada  = 1
 while tabuada <= 10:
     print(f'\nTABUADA DO {tabuada}')
