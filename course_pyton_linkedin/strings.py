@@ -16,4 +16,4 @@ day = 13
 
 temp = -2
 
-print(f"Today is {day_name} on {month} {day} and it's {temp} degrees outside")
+print(f"Today is {day_name} {month} {day} and it's {temp} degrees outside")
