@@ -1,0 +1,13 @@
+def bark():
+    print("Woof Woof!")
+    print("I'm a little dog")
+
+for i in range(10):
+    bark()
+
+# Creat a function called hello tha prints "Hello Nick!"
+
+def hello():
+    print('Hello Nick')
+
+hello()
