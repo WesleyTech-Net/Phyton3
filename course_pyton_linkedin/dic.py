@@ -25,4 +25,8 @@ len(cats)
 
 print(len(cats))
 
+#create a dictionary with Ints for keys and Booleans for valeus
+
+int_valeus = {0:False, 1:True}
+print(int_valeus)
 
