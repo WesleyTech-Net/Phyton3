@@ -7,6 +7,6 @@ print(School.info)
 #Create a class variable inside the class
 
 class Room:
-    my_room = ["Moniotor", "Chair", "Bed", "Desk"]
+    my_room = ["Monitor", "Chair", "Bed", "Desk"]
     for my_room in my_room:
         print(my_room, end=' ')
