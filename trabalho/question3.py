@@ -1,0 +1,1 @@
+print("Bem vindo Fábrica de Camisetas de Wesley Sampaio")
