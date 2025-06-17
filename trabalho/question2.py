@@ -18,11 +18,11 @@ while True:
     
     total += 0
 
-    #condição se o cliente errar o sabor BA e o tamanho
+    #condição se o cliente escolher o sabor BA
     if sabor == "BA":
-    
     #cliente escolhe o tamanho para o sabor Bife Acebolado (BA) 
         tamanho = input("Entre com o tamnho desejado (P/M/G): ")
+        #condição caso o cliente erre o tamanho
         if tamanho != "P" and tamanho != "M" and tamanho != "G":
             print("Tamanho inválido. Tente novamente...\n")
             continue
@@ -39,10 +39,12 @@ while True:
                 valor = 22
                 print(f"Você pediu um Bife Acebolado no tamanho {tamanho}: R$ {valor:.2f}")
                 total += valor
-    
+
+    #condição se o cliente escolher o sabor FF
     if sabor == "FF":
     #cliente escolhe o tamanho para o sabor Filé de Frango (FF)
         tamanho = input("Entre com o tamnho desejado (P/M/G): ")
+        #condição caso o cliente erre o tamanho
         if tamanho != "P" and tamanho != "M" and tamanho != "G":
             print("Tamanho inválido. Tente novamente...\n")
             continue
@@ -65,7 +67,7 @@ while True:
         print("Sabor inválido. Tente novamente...\n")
         continue
 
-    #condição caso o cliente escolha continuar e fazer outros ou pediso ou terminar os pedios 
+    #condição caso o cliente escolha continuar e fazer outros pedidos ou terminar os pedidos. 
     escolha = input("\nDeseja mais alguma coisa (S/N): ")
     if escolha == "S":
         continue
