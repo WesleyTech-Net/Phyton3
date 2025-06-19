@@ -105,5 +105,5 @@ if escolha_frete == 1:
 if escolha_frete == 2:
     valor_frete = 200
     total = (valor_camiseta * total_desc) + valor_frete
-    print(f"Total: R$ {total} (Modelo: {valor_camiseta} * Quantidade(com desconto): {total_desc} + frete: {valor_frete})")
+    print(f"Total: R$ {total:.2f} (Modelo: {valor_camiseta} * Quantidade(com desconto): {total_desc} + frete: {valor_frete})")
 
