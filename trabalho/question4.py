@@ -22,6 +22,7 @@ def criar_arquivo(nomeArquivo):
     else:
         print(f"Arquivo {nomeArquivo} criado com sucesso!\n")
 
+def cadastrar_funcionario():
 
 
 #Programa Principal
