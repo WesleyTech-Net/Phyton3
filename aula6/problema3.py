@@ -24,3 +24,5 @@ while True:
     cadastro['ano'].append(ano)
 
 print(cadastro)
+
+#NÃO FINALIZADO

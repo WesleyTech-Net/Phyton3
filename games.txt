@@ -1,3 +1,5 @@
 Homem;PS4
 HOMEM;PS5
 zelda;PS1
+L;P
+L;P
