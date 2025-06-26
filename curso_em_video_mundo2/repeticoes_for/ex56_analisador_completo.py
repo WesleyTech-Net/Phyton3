@@ -28,6 +28,6 @@ for i in range (1, 5):
 
 print(f"A média de idade do grupo é de {int(mediaIdade)} anos.")
 print(f"O home mais velho se chama {nomeMaisVelho} e tem {idadeMaiorMasculino} anos de idade.")
-print(f"São {contMulher} mulheres com menos de 20 anos de idade.")
+print(f"Ao todo são {contMulher} mulheres com menos de 20 anos de idade.")
 
 
