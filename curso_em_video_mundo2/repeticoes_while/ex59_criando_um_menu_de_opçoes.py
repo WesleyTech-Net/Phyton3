@@ -1,3 +1,4 @@
+from time import sleep
 n1 = int(input("Primeiro valor: "))
 n2 = int(input("Segundo valor: "))
 print(10 * "=", "MENU", 10 * "=")
@@ -30,6 +31,8 @@ while True:
                     [5] - SAIR DO PROGRMA 
                     """)
             elif escolha == 5:
+                print("Finalizando...")
+                sleep(2)
                 print("Tenha um excelente dia!")
                 break
 
@@ -50,6 +53,8 @@ while True:
                     [5] - SAIR DO PROGRMA 
                     """)
             elif escolha == 5:
+                print("Finalizando...")
+                sleep(2)
                 print("Tenha um excelente dia!")
                 break
 
@@ -72,6 +77,8 @@ while True:
                 [5] - SAIR DO PROGRMA 
                 """)
         elif escolha == 5:
+            print("Finalizando...")
+            sleep(2)
             print("Tenha um excelente dia!")
             break        
             
