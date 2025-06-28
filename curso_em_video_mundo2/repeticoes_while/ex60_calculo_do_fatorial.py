@@ -1,5 +1,5 @@
 n = int(input("Insira um número: "))
-print(f"Calculcndo {n}! = ", end="")
+print(f"Calculcando {n}! = ", end="")
 
 cont = n
 fat = 1
@@ -10,4 +10,4 @@ while cont > 0:
     cont -= 1
 print(f"{fat}")
 
-float("a")
+
