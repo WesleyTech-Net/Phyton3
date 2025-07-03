@@ -1,7 +1,7 @@
-
 contador_18 = 0
 homem = 0
 mulher_menor = 0
+
 while True:
     print(10 * "-=")
     print("CADASTRE UMA PESSOA")
@@ -25,6 +25,6 @@ while True:
     elif op in "N":
         break
 
-print(f"Total de pessoas com mais de 18 anos: {contador_18}")
+print(f"\nTotal de pessoas com mais de 18 anos: {contador_18}")
 print(f"Ao todo temos {homem} homem(ens) cadastrado(s)")
 print(f"E temos {mulher_menor} mulher(s) com menos de 20 anos.")
