@@ -10,7 +10,7 @@ while True:
         
         
         if num in valores:
-            print("Valor já inserido tente novamente...")
+            print("❌ Valor já inserido tente novamente...")
 
         else:
 
