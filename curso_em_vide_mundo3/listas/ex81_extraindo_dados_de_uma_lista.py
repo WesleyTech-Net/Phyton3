@@ -26,4 +26,10 @@ for i in valores:
     print(i, end = " ")
     
 print(f"\nVocê digitou {cont2} número(s)")
+
+decrescente = valores.copy()
+decrescente.sort(reverse=True)
+
+for i in decrescente:
+    print(f"Lista ordenada de forma decrescente: {decrescente}")
     
