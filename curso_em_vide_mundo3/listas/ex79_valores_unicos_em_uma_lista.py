@@ -13,10 +13,12 @@ while True:
             print("Valor já inserido tente novamente...")
 
         else:
+
             cont += 1
             valores.append(num)
             print("✅ Valor adicionado com sucesso...")
             op = str(input("Quer continuar: [S/N] ")).strip().upper()[0]
+            
             if op in "S":
                 continue
             elif op in "N":

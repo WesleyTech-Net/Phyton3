@@ -8,6 +8,6 @@ while escolha > 10 or escolha < 0:
 
 for cont in range(0, len(numeros)+1):
     if 0 <= escolha <= 10:
-        print(f"O número {escolha} por extenso é: {numeros[escolha]}")
+        print(f"O número {escolha} por extenso é: {numeros[escolha  ]}")
     else:
         print("Número fora do intervalo permitido. Digite de 0 a 10.")

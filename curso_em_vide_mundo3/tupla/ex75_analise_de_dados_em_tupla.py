@@ -4,7 +4,7 @@ print(f"Você inseriu os valores: ", end="")
 for i in tupla:
     print(f'{i}', end=" ")
 
-print("\nOs valores pares digitados são: ", end=" ")
+print("\nOs valores pares digitados são: ", end="")
 for pares in tupla:
     if pares % 2 == 0:
         print(pares, end=" ")
