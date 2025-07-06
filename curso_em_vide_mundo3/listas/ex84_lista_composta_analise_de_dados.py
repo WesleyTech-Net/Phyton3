@@ -41,7 +41,7 @@ for i in pessoas:
     if i[1] == maior_peso:
         print(f"Peso de {i[0]}")
 
-print(f"O menor peso foi de {menor_peso} kg")
+print(f"O menor peso foi de {menor_peso} kg", end=" ")
 for i in pessoas:
     if i[1] == menor_peso:
         print(f"Peso de {i[0]}")
