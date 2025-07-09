@@ -29,3 +29,11 @@ print(frase)
 #Crie um código que solicite uma frase à pessoa usuária e imprima a mesma frase com todas as vogais “e” trocadas pela letra “f”.
 frase = str(input("6 Digite uma frase: ")).strip().lower()
 print(frase.replace('e', 'f'))
+
+#Crie um código que solicite uma frase à pessoa usuária e imprima a mesma frase com todas as vogais “a” trocadas pela caractere “@”.
+frase = str(input("7 Digite uma frase: ")).strip().lower()
+print(frase.replace('a', '@'))
+
+#Crie um código que solicite uma frase à pessoa usuária e imprima a mesma frase com todas as consoantes “s” trocadas pelo caractere “$”.
+frase = str(input("7 Digite uma frase: ")).strip().lower()
+print(frase.replace('s', '$'))
