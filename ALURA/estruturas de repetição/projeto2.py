@@ -20,6 +20,6 @@ while True:
         if op == "N":
             break
     except ValueError:
-        print("Valor não numérico não inserido. Tente novamente...")
-        
+        print("🛑 Valor não numérico não inserido. Tente novamente...")
+
 print("ENCERRANDO O PROGRAMA...")
