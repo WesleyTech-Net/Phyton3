@@ -23,7 +23,7 @@ while True:
 
         if escolha == 'N':
             break
-        if not lista_usuarios:
+        if not lista_usuarios: #para parar o programa caso todos os números já tenham sido sorteados
             break
 
     except ValueError:

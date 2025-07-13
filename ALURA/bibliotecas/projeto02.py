@@ -3,14 +3,11 @@ from time import sleep
 
 print(f"{'GERAR TOKEN':=^45}")
 
-
 tokens = []
-for i in range(0, 5):
+for i in range(1000, 9999):
     tokens.append(i)
-
-
+    
 tokens_pares = [t for t in tokens if t % 2 == 0]
-
 
 while True:
     

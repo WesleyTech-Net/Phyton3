@@ -17,3 +17,63 @@ total_compras = len(valores_gastos)
 porcentagem = (acima_300 / total_compras) * 100
 
 print(f"Isso representa {porcentagem:.2f}% do total de compras.")
+
+#3)Faça um código que colete em uma lista 5 números inteiros quaisquer e imprima a lista. Exemplo: [1,4,7,2,4].
+
+lista = list()
+
+for i in range(1, 6):
+    numeros = int(input(f"{i}º valor: "))
+    lista.append(numeros)
+
+print(lista)
+
+#4) Colete novamente 5 inteiros e imprima a lista em ordem inversa à enviada.
+lista = list()
+
+for i in range(1, 6):
+    numeros = int(input(f"{i}º valor: "))
+    lista.append(numeros)
+
+print(sorted(lista, reverse = True))
+
+#5) Faça um programa que, ao inserir um número qualquer, cria uma lista contendo todos os números primos entre 1 e o número digitado.
+lista_numeros = []
+
+primos = []
+
+op = int(input("Escolha um número: "))
+cont = 1
+
+for i in range(1, op + 1):
+    lista_numeros.append(cont)
+    cont += 1
+
+for numeros_primos in lista_numeros: #verifica os números dentro da lista_numeros e separa apenas os números primos
+    if numeros_primos > 1:
+        e_primo = True
+        for i in range(2, int(numeros_primos ** 0.5) + 1):
+            if numeros_primos % i == 0:
+                e_primo = False
+                break
+        if e_primo:
+            primos.append(numeros_primos)
+
+print(f"Esses são os números primos entre 1 e {op}: ", end=" ")
+for i in primos:
+    print(f"{i}", end=" ")
+
+#6) Escreva um programa que peça uma data informando o dia, mês e ano e determine se ela é válida para uma análise.
+import datetime
+
+dia = int(input("Informe o dia: "))
+mes = int(input("Informe o mês: "))
+ano = int(input("Informe o ano: "))
+
+try:
+
+    data = datetime.date(ano, mes, dia)
+    print(f"A data {data.strftime('%d/%m/%Y')} é uma data válida para análise.")#ordem para Brasil
+
+except ValueError:
+    print("Data inválida.")
