@@ -7,13 +7,15 @@ for i in range(1, 11):
     try:
         id = int(input(f"Insira o {i}º ID Par para doces ou ID ímpar para amargos: "))
         cont += 1
+
+        #condição para verificar se é par ou impar
         if id % 2 == 0:
-            if id not in id_par:
+            if id not in id_par:#estrutura de condição para não repetir o mesmo ID
                 id_par.append(id)
             else:
                 print("ID para doce já inserido. Tente novamente...")
-        else:
-            if id not in id_impar:
+        else:#condição caso não seja par
+            if id not in id_impar:#estrutura de condição para não repetir o mesmo ID
                 id_impar.append(id)
             else:
                 print("ID para amargos já inserido. Tente novamente...")
