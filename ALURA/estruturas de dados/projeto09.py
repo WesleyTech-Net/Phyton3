@@ -27,4 +27,4 @@ for idades in dados.values(): #Percorre cada lista de idades dos setores.
     for idade in idades: # percorre cada idade individual da lista de um setor.
         if idade > total_media_geral:
             cont += 1
-print(f"Total de pessoas acima da idade média geral: {cont} pessoa(s)")
+print(f"Total de pessoas acima da idade média geral: {cont} pessoa(s).")
