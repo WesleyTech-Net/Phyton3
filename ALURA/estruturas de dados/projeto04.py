@@ -30,7 +30,7 @@ media = sum(lista_temperaturas) / 12
 print(40 * ".")
 print(f"A temperatura média anual é de {round(media, 1)}°C")
 
-print(f"{'MESES ACIMDA DA MÉDIA ANUAL':-^40}")
+print(f"{'MESES ACIMA DA MÉDIA ANUAL':-^40}")
 for i in range(12):
     if lista_temperaturas[i] > media:
         print(f"{meses[i + 1]}: {round(lista_temperaturas[i], 1)}°C")
