@@ -38,4 +38,15 @@ lista_multiplos_3 = encontrar_multiplos_3(numeros)
 print(f"Os Múltiplos de 3 são: ", end="")
 for i in lista_multiplos_3:
     print(i, end=" ")
-#4)
+
+#4) Crie uma lista dos quadrados dos números da seguinte lista [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]. 
+# Lembre-se de utilizar as funções lambda e map() para calcular o quadrado de cada elemento da lista.
+def quadrado_numeros(lista):
+    return list(map(lambda x: x ** 2, lista))
+
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista_quadrado_numeros = quadrado_numeros(numeros)
+print("O quadrado de cada número é: ")
+
+for num, quadrado in zip(numeros, lista_quadrado_numeros):# zip() é uma função embutida do Python que serve para juntar elementos de duas (ou mais) listas em pares.
+    print(f"{num}² = {quadrado}")
